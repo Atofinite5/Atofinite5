@@ -1,41 +1,41 @@
-<h1 align="center">Hi 👋, I'm Bhargav Kalambhe</h1>
+<h1 align="center">Hi I'm Bhargav Kalambhe</h1>
 <h3 align="center">Backend Engineering Enthusiast | B.Tech CSE @ Kalvium | Esports Tech Lead</h3>
 
 ---
 
-## 🚀 About Me
+##  About Me
 
-- 🎓 B.Tech CSE Student @ Kalvium (2024–2028)
-- 🏫 JECRC University, Jaipur
-- 💻 Passionate about Backend Engineering & System Design
-- 🧠 Currently building scalable full-stack applications
-- 🎮 Owner of IND ATOMS Esports
-- 🏆 Former IT Support Intern @ Riot Agency (Account Recovery & Security Handling)
-- 🌱 Currently Learning: Advanced Backend Architecture & Cloud Systems
+- B.Tech CSE Student @ Kalvium (2024–2028)
+- JECRC University, Jaipur
+- Passionate about Backend Engineering & System Design
+- Currently building scalable full-stack applications
+- Owner of IND ATOMS Esports
+- Former IT Support Intern @ Riot Agency (Account Recovery & Security Handling)
+- Currently Learning: Advanced Backend Architecture & Cloud Systems
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-### 👨‍💻 Programming Languages
+###  Programming Languages
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-### 🌐 Backend & Web
+###  Backend & Web
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-404d59?style=for-the-badge&logo=express&logoColor=61DAFB)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![React](https://img.shields.io/badge/react-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### 🗄️ Databases
+###  Databases
 ![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/Postgres-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### ☁️ Cloud & Deployment
+###  Cloud & Deployment
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
@@ -44,12 +44,12 @@
 
 ---
 
-## 🔥 Featured Projects
+##  Featured Projects
 
-### 💰 Expetrak – Professional Finance Tracker
+###  Expetrak – Professional Finance Tracker
 > Full-stack finance tracking application with authentication, dashboard analytics, transaction import/export & secure JWT-based login.
 
-### 🤖 Dambh – AI System Prototype
+###  Dambh – AI System Prototype
 > Custom AI assistant architecture focusing on intelligent backend processing & scalable system logic.
 
 ### 🎮 IND ATOMS Esports
@@ -57,17 +57,24 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Atofinite05&show_icons=true&theme=tokyonight" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Atofinite05&theme=tokyonight" height="170"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Atofinite05&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Atofinite05&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atofinite05&layout=compact&theme=tokyonight"/>
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atofinite05&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Atofinite05&theme=tokyo-night&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Atofinite05&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views"/>
+</p>
 ---
 
 ## 📫 Connect With Me
