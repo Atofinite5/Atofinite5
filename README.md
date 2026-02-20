@@ -64,18 +64,8 @@
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Atofinite05&theme=tokyonight&hide_border=true" />
 </p>
 
-<p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atofinite05&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Atofinite05&theme=tokyo-night&hide_border=true"/>
-</p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Atofinite05&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views"/>
-</p>
----
 
 ## 📫 Connect With Me
 
