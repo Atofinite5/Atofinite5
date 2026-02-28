@@ -67,7 +67,7 @@
 
 ## ⚡ Fun Fact
 
-I combine **backend engineering + competitive gaming strategy** —  
+I combine **backend engineering + competitive gaming strategy** 
 because system design and esports both require precision, speed, and decision-making under pressure.
 
 ---
