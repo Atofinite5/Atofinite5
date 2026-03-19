@@ -13,9 +13,9 @@
 
 <!-- Profile Views & Social Badges -->
 <p align="center">
-  <a href="https://github.com/atofinite"><img src="https://komarev.com/ghpvc/?username=atofinite&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/></a>
-  <a href="https://github.com/atofinite?tab=followers"><img src="https://img.shields.io/github/followers/atofinite?label=Followers&style=for-the-badge&color=blue" alt="Followers"/></a>
-  <a href="https://github.com/atofinite?tab=repositories"><img src="https://img.shields.io/github/stars/atofinite?label=Stars&style=for-the-badge&color=yellow" alt="Stars"/></a>
+  <a href="https://github.com/Atofinite5"><img src="https://komarev.com/ghpvc/?username=Atofinite5&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/></a>
+  <a href="https://github.com/Atofinite5?tab=followers"><img src="https://img.shields.io/github/followers/Atofinite5?label=Followers&style=for-the-badge&color=blue" alt="Followers"/></a>
+  <a href="https://github.com/Atofinite5?tab=repositories"><img src="https://img.shields.io/github/stars/Atofinite5?label=Stars&style=for-the-badge&color=yellow" alt="Stars"/></a>
 </p>
 
 <!-- Animated About Me Section -->
@@ -37,9 +37,10 @@
 <!-- Tech Stack Section -->
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> Tech Stack
 
+### 🎨 Frontend
+
 <p align="center">
 
-### 🎨 Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -49,14 +50,24 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
+</p>
+
 ### ⚙️ Backend & Database
+
+<p align="center">
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
+</p>
+
 ### 🛠️ Tools & Platforms
+
+<p align="center">
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
@@ -74,26 +85,26 @@
 
 <p align="center">
   <!-- Stats Card -->
-  <a href="https://github.com/atofinite">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=atofinite&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6AD3F7&icon_color=6AD3F7&text_color=FFFFFF&count_private=true" alt="GitHub Stats"/>
+  <a href="https://github.com/Atofinite5">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Atofinite5&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6AD3F7&icon_color=6AD3F7&text_color=FFFFFF&count_private=true" alt="GitHub Stats"/>
   </a>
   <!-- Top Languages -->
-  <a href="https://github.com/atofinite">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=atofinite&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6AD3F7&text_color=FFFFFF&langs_count=8" alt="Top Languages"/>
+  <a href="https://github.com/Atofinite5">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atofinite5&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6AD3F7&text_color=FFFFFF&langs_count=8" alt="Top Languages"/>
   </a>
 </p>
 
 <!-- Streak Stats -->
 <p align="center">
-  <a href="https://github.com/atofinite">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=atofinite&theme=tokyonight&hide_border=true&background=0D1117&stroke=6AD3F7&ring=6AD3F7&fire=FF6B6B&currStreakLabel=6AD3F7" alt="GitHub Streak"/>
+  <a href="https://github.com/Atofinite5">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Atofinite5&theme=tokyonight&hide_border=true&background=0D1117&stroke=6AD3F7&ring=6AD3F7&fire=FF6B6B&currStreakLabel=6AD3F7" alt="GitHub Streak"/>
   </a>
 </p>
 
 <!-- Activity Graph -->
 <p align="center">
-  <a href="https://github.com/atofinite">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=atofinite&bg_color=0D1117&color=6AD3F7&line=6AD3F7&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph"/>
+  <a href="https://github.com/Atofinite5">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Atofinite5&bg_color=0D1117&color=6AD3F7&line=6AD3F7&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph"/>
   </a>
 </p>
 
@@ -104,8 +115,8 @@
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <a href="https://github.com/atofinite">
-    <img src="https://github-profile-trophy.vercel.app/?username=atofinite&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" alt="GitHub Trophies"/>
+  <a href="https://github.com/Atofinite5">
+    <img src="https://github-profile-trophy.vercel.app/?username=Atofinite5&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" alt="GitHub Trophies"/>
   </a>
 </p>
 
@@ -116,9 +127,9 @@
 ## 🐍 Contribution Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/atofinite/atofinite/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/atofinite/atofinite/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/atofinite/atofinite/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake-dark.svg" />
 </picture>
 
 <!-- Animated Divider -->
@@ -135,7 +146,7 @@
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Connect With Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/atofinite" target="_blank">
+  <a href="https://linkedin.com/in/bhargav-kalambhe-882b4121a/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://twitter.com/atofinite" target="_blank">
@@ -144,20 +155,10 @@
   <a href="mailto:bhargavkalambhe3@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://github.com/atofinite" target="_blank">
+  <a href="https://github.com/Atofinite5" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
-
-<!-- Spotify / Now Playing (Optional - remove if not needed) -->
-<!--
-## 🎧 Now Playing
-<p align="center">
-  <a href="https://open.spotify.com/user/YOUR_SPOTIFY_ID">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem&bar_color=6AD3F7" alt="Spotify"/>
-  </a>
-</p>
--->
 
 <!-- Support Section -->
 ## ☕ Support Me
