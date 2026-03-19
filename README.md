@@ -1,5 +1,5 @@
 <!-- Animated Wave Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%20There!%20I'm%20Atofinite%20👋&fontSize=36&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=I'm!%20Dev_Bhargav%20:]&fontSize=36&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
 <!-- Typing SVG -->
 <p align="center">
