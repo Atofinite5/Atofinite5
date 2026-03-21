@@ -1,14 +1,12 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,50:142d4c,100:1a3a5c&height=180&section=header&text=Bhargav%20Kalambhe&fontSize=38&fontColor=c9d1d9&animation=fadeIn&fontAlignY=32&desc=Full-Stack%20Developer%20%C2%B7%20Open%20Source%20Contributor&descSize=14&descColor=4c8ed9&descAlignY=52"/>
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0e17,50:0d1525,100:111d33&height=2&section=header"/>
+<a href="https://github.com/DenverCoder1/readme-typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&duration=3500&pause=1200&color=4C8ED9&center=true&vCenter=true&multiline=false&repeat=true&width=520&height=30&lines=Building+reliable+systems+that+scale;Turning+ideas+into+production-grade+software;Shipping+clean+code%2C+one+commit+at+a+time" alt="Typing SVG" />
+</a>
 
-<br>
-
-# Bhargav Kalambhe
-
-**Full-Stack Web Developer**&ensp;|&ensp;**Open Source Contributor**&ensp;|&ensp;**Nagpur, India**
-
-<br>
+<br><br>
 
 <a href="https://github.com/Atofinite5"><img src="https://komarev.com/ghpvc/?username=Atofinite5&style=flat-square&color=4c8ed9&label=Profile+Views" alt=""/></a>&ensp;
 <a href="https://github.com/Atofinite5?tab=followers"><img src="https://img.shields.io/github/followers/Atofinite5?label=Followers&style=flat-square&color=4c8ed9&labelColor=0d1117" alt=""/></a>&ensp;
@@ -16,13 +14,15 @@
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
 ### About
 
-Full-stack developer with production experience across **BrandTurn**, **LearnNex (Wipro)**, and **Lenovo LTD**. Focused on building reliable, scalable web applications. Currently deepening skills in system design and cloud architecture. Open to collaborating on open source projects.
+I build full-stack web applications with a focus on clean architecture and long-term maintainability. My production experience spans **BrandTurn**, **LearnNex (Wipro)**, and **Lenovo LTD** — shipping features used by real users in real environments.
 
----
+Right now I am focused on **system design**, **cloud-native patterns**, and contributing to **open source** projects that move the ecosystem forward. I believe in writing code that reads like well-structured documentation — minimal, intentional, and built to last.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
 ### Tech Stack
 
@@ -54,17 +54,17 @@ Tools          VS Code  Postman
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
 ### GitHub Stats
 
 <div align="center">
 
 <a href="https://github.com/Atofinite5">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Atofinite5&show_icons=true&hide_border=true&bg_color=0d1117&title_color=4c8ed9&icon_color=4c8ed9&text_color=8b949e&count_private=true&ring_color=4c8ed9" alt="Stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Atofinite5&show_icons=true&hide_border=true&bg_color=0d1117&title_color=4c8ed9&icon_color=4c8ed9&text_color=8b949e&count_private=true&ring_color=4c8ed9" alt="Stats"/>
 </a>&ensp;
 <a href="https://github.com/Atofinite5">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atofinite5&layout=compact&hide_border=true&bg_color=0d1117&title_color=4c8ed9&text_color=8b949e&langs_count=8" alt="Languages"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atofinite5&layout=compact&hide_border=true&bg_color=0d1117&title_color=4c8ed9&text_color=8b949e&langs_count=8" alt="Languages"/>
 </a>
 
 </div>
@@ -85,7 +85,7 @@ Tools          VS Code  Postman
 </a>
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
 ### Trophies
 
@@ -95,7 +95,7 @@ Tools          VS Code  Postman
 </a>
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
 ### Contributions
 
@@ -105,7 +105,7 @@ Tools          VS Code  Postman
   <img alt="contribution-graph" src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake-dark.svg" />
 </picture>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
 ### Connect
 
@@ -125,6 +125,4 @@ Tools          VS Code  Postman
 <a href="https://www.buymeacoffee.com/atofinite"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-0d1117?style=flat-square&logo=buy-me-a-coffee&logoColor=FFDD00" alt="Buy Me A Coffee"/></a>
 </div>
 
-<br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0e17,50:0d1525,100:111d33&height=2&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,50:142d4c,100:1a3a5c&height=100&section=footer"/>
