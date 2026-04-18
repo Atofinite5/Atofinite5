@@ -27,7 +27,7 @@
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/header-about.svg" width="100%"/>
 
-```
+​```
 // OPERATOR PROFILE
 // ---------------------------------------------------------------
 // Name        :: Bhargav Kalambhe
@@ -37,7 +37,7 @@
 // Location    :: India / Remote
 // Status      :: Shipping
 // ---------------------------------------------------------------
-```
+​```
 
 I build full-stack web applications with a focus on clean architecture and long-term maintainability. My production experience spans **BrandTurn**, **LearnNex (Wipro)**, and **Lenovo LTD** — shipping features used by real users in real environments.
 
@@ -59,7 +59,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/project-001v-sork.svg" width="100%"/>
 
-```
+​```
 // SORK :: DEVELOPER PRODUCTIVITY LAYER
 //
 // Full-stack productivity platform built to streamline developer workflows.
@@ -69,7 +69,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 // Role      :: Founder / Lead Engineer
 // Status    :: ACTIVE
 // Stack     :: React  Next.js  Postgres  Redis  Supabase  Prisma
-```
+​```
 
 <a href="https://github.com/Atofinite5/sork"><img src="https://img.shields.io/badge/View_Repository-0a0118?style=flat-square&logo=github&logoColor=7c4dff&labelColor=0a0118" alt="Repo"/></a>
 
@@ -79,7 +79,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/project-002v-arahant.svg" width="100%"/>
 
-```
+​```
 // ARAHANT :: AI-POWERED LEARNING COMPANION
 //
 // Personalized learning platform using LLMs to adapt course content,
@@ -89,7 +89,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 // Role      :: Founder / AI Engineer
 // Status    :: BETA
 // Stack     :: Next.js  TypeScript  Postgres  Redis  Prisma  Kubernetes
-```
+​```
 
 <a href="https://github.com/Atofinite5/arahant"><img src="https://img.shields.io/badge/View_Repository-0a0118?style=flat-square&logo=github&logoColor=7c4dff&labelColor=0a0118" alt="Repo"/></a>
 
@@ -99,7 +99,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/project-003v-brandturn.svg" width="100%"/>
 
-```
+​```
 // BRANDTURN :: BRAND IDENTITY AUTOMATION ENGINE
 //
 // Production platform for brand identity generation and management.
@@ -109,7 +109,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 // Role      :: Full-Stack Engineer
 // Status    :: SHIPPED
 // Stack     :: React  Node.js  Express  MongoDB  Docker
-```
+​```
 
 <a href="https://brandturn.com"><img src="https://img.shields.io/badge/Live_Platform-0a0118?style=flat-square&logo=vercel&logoColor=7c4dff&labelColor=0a0118" alt="Live"/></a>
 
@@ -119,7 +119,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/project-004v-amv-gem.svg" width="100%"/>
 
-```
+​```
 // AMV-GEM :: AI MUSIC VIDEO GENERATION ENGINE
 //
 // Generative AI pipeline for producing anime music videos from prompts.
@@ -129,7 +129,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 // Role      :: Founder / ML Engineer
 // Status    :: R&D
 // Stack     :: Python  PyTorch  Stable Diffusion  FFmpeg
-```
+​```
 
 <a href="https://github.com/Atofinite5/amv-gem"><img src="https://img.shields.io/badge/View_Repository-0a0118?style=flat-square&logo=github&logoColor=7c4dff&labelColor=0a0118" alt="Repo"/></a>
 
@@ -198,7 +198,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/header-connect.svg" width="100%"/>
 
-```
+​```
 // OPEN CHANNELS
 //
 // LinkedIn    :: /in/bhargav-kalambhe-882b4121a
@@ -206,7 +206,7 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 // Email       :: bhargavkalambhe3@gmail.com
 // Topmate     :: /hargav_le/page/atORL3l8oo
 // Support     :: buymeacoffee.com/atofinite
-```
+​```
 
 <br>
 
@@ -229,11 +229,11 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <div align="center">
 
-```
+​```
 //  END OF TRANSMISSION
 //  ---------------------------
 //  "built to last, shipped to scale"
 //  bhargav_kalambhe  //  atofinite5
-```
+​```
 
 </div>
