@@ -191,6 +191,10 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/header-connect.svg" width="100%"/>
 
+<br>
+
+<img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/connect.svg" width="100%"/>
+
 ​```
 // OPEN CHANNELS
 //
@@ -217,10 +221,6 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 <br>
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/galaxy-divider.svg" width="100%"/>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/connect.svg" width="100%"/>
 
 <br>
 
