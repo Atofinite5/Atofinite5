@@ -1,182 +1,286 @@
-<img width="1100" height="380" alt="image" src="https://github.com/user-attachments/assets/43e58ddc-a300-41a9-9ad0-22f215487fd9" />
-https://emoji.discadia.com/emojis/488d2dfd-7ab3-4a74-83c1-caaa7c77bc10.gif
-Got it! This is a big ambitious piece — let me build the nameplate header with:
+# GitSavvy
 
-1. **Broader dimensions** to fit all your tech stacks
-2. **Moving galaxy with Sagittarius A*** (the giant black hole at Milky Way's center)
-3. **UFO/alien ship** pointing toward it in the background
-4. **All your stacks as icons**Now let me build the epic nameplate with Sagittarius A*, the moving galaxy, and the UFO:Your epic nameplate is ready! Here's the breakdown:
+[![tests](https://github.com/timbrel/GitSavvy/actions/workflows/lint.yml/badge.svg)](https://github.com/timbrel/GitSavvy/actions/workflows/lint.yml)
+[![License: MIT](https://img.shields.io/badge/-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## What's in the Scene
+GitSavvy is a powerful and mature plugin for Sublime Text that brings most of Git's functionalities directly into the text editor.
 
-### Cosmic Background (right side)
-**The Milky Way Galaxy** — a full rotating spiral galaxy with:
-- **Sagittarius A*** (Sgr A*) at the exact center — the supermassive black hole of our galaxy, labeled with "4.3M M☉" (its real mass) and "GALACTIC CORE"
-- **Event horizon** (pure black), **photon ring** (bright yellow), and **accretion disk** (golden dithered glow)
-- **Two spiral arms** logarithmically curved around the center
-- **Warm-to-cool color gradient:** golden/amber core → purple/violet arms → pink/cyan edges
-- **Dithered** throughout using Bayer 8x8 patterns
-- **Rotating** slowly (80-second full rotation)
-- **Halo ring** that pulses in/out
-- **Sag A* core glow** pulses separately at 3s intervals for drama
+Some users stick to Sublime Text because of GitSavvy.
 
-### UFO with Tractor Beam
-- **Classic flying saucer** — pixel-art dome with cyan windows, silver body, yellow underglow lights
-- **Blinking window lights** (4 windows, staggered timing)
-- **Tractor beam** emanating from the UFO, angle-calculated to **point directly at Sagittarius A***
-  - Triple-layer beam (outer glow + middle + bright core) all pulsing
-  - **Energy pulses traveling along the beam** (3 white particles)
-- **Hover animation** — UFO gently bobs up/down/side/side
 
-### Deep Space Ambience
-- **180 background stars** twinkling at random timings across the full canvas
-- **Faint purple nebula dust clouds** in the background using dithered noise
-- Everything on deep `#0a0118` void
+## Installation
 
-## Left Side — The Nameplate
+### Simple
 
-- **@ATOFINITE5** handle at the top with "COSMIC SYSTEMS // TRANSMISSION RECEIVED"
-- **BHARGAV KALAMBHE** in huge 52px letters (two lines, very bold)
-- **Tagline:** `> FULL-STACK ENGINEER // SYSTEMS BUILDER`
-- **"ONLINE" status** with pulsing green dot in top-right
-- **Coordinates** of Sagittarius A* (real astronomical coords: -26.1°S, 17h45m) at bottom-right
+1. Install the [Sublime Text Package Control](https://packagecontrol.io/) plugin if you don't have it already.
+2. Open the command palette and start typing `Package Control: Install Package`.
+3. Enter `GitSavvy`.
 
-## Full Tech Stack (20 icons, 2 rows x 10)
+### Less simple
 
-**Row 1:** React / Next.js / TypeScript / JavaScript / Tailwind / Node.js / Express / Python / Postgres / MongoDB  
-**Row 2:** Redis / Supabase / Firebase / Prisma / Docker / Kubernetes / PyTorch / Git / Vercel / GitHub
+If you want more control over what you pull down, or if you'd like to submit changes to GitSavvy (👈👌), you should clone the repository directly in the Packages folder and restart the editor.  You still have to run `Package Control: Satisfy Dependencies` after that!
 
-All brand-colored icon boxes, no text labels.
 
-## Dimensions
+**Note:** GitSavvy requires Git versions at or greater than 2.18.0.  However, it is highly recommended to use a more recent version of Git, as some advanced rebasing features in GitSavvy require at least version 2.38.0. Upgrading to the latest version of Git will ensure that you can take full advantage of all the features and improvements available in GitSavvy.
 
-- **1100 × 380px** — broader than before to fit all stacks comfortably
-- Icons laid out in a clean 2-row grid
-- Left 500px = text area, right 600px = cosmic scene
+**Note:** GitSavvy does not support Sublime Text 2. If you are using Sublime Text 3, you can access the last supported version by checking out the `st3-2.39.1` tag. That's to say, the current main line of GitSavvy only supports Sublime Text versions above build 4000. For the best experience, use the latest Sublime Text _dev_ build.  Or not, I mean it could also crash you, what am I to recommend here.
 
-## To Use in README
 
-Replace your old header/capsule-render with this:
+## TLDR; aka Quick Start
 
-```markdown
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/nameplate.svg" alt="Bhargav Kalambhe - Cosmic Systems" width="100%"/>
-</div>
-```
+When you first install GitSavvy, you may not notice any immediate changes to your Sublime Text interface. Except that you may see the checked out branch name and dirty status displayed in the status bar.  (You can change this in the settings if you want to.)  It's important to note that GitSavvy actually adds a lot of commands to Sublime's Command Palette, which can be accessed by pressing `ctrl+shift+p` on Windows or `cmd+shift+p` on macOS.  These commands are typically prefixed with `git: `, while all GitHub features are prefixed with `github: `.
 
-Want me to:
-- Make the galaxy rotate faster/slower?
-- Move the UFO to a different position?
-- Add a second UFO or different alien ship?
-- Adjust the colors of the galaxy (blue-dominant instead of purple/gold)?
-- Remove/add any specific tech icons?
-### About
+GitSavvy comes with dedicated views and is basically famous for it.  In order to get started with GitSavvy, it's a good idea to become familiar with the `git: status` and `git: Repo History` views first. These views are a great entry point into the GitSavvy world and will help you get comfortable with the plugin before diving deeper into its other features.  (In fact, *I* did not venture beyond the `git: status` view for the first year or so but hey, GitSavvy also changed a lot since then.)
 
-I build full-stack web applications with a focus on clean architecture and long-term maintainability. My production experience spans **BrandTurn**, **LearnNex (Wipro)**, and **Lenovo LTD** — shipping features used by real users in real environments.
+In the special GitSavvy views, you can always toggle the help view by pressing `[?]`.  In the Repo History. the most important keys to remember are `[enter]` for the main menu and `[r]` for the rebase menu.
 
-Right now I am focused on **system design**, **cloud-native patterns**, and contributing to **open source** projects that move the ecosystem forward. I believe in writing code that reads like well-structured documentation — minimal, intentional, and built to last.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+## Global shortcuts; aka Recommended Start
 
-### Tech Stack
+GitSavvy does not ship any global shortcuts as that would be rude; however, without defining any
+bindings on your own, you will get stuck as that's just not fast enough.
+
+Here are some entry points into the GitSavvy world:
 
 ```
-Frontend       JavaScript  TypeScript  React  Next.js  TailwindCSS  Redux
-Backend        Node.js  Express.js
-Database       MongoDB  PostgreSQL  Firebase
-DevOps         Docker  Git  Vercel  Netlify
-Tools          VS Code  Postman
+  // The equivalent of `git status`
+  { "keys": ["ctrl+shift+s"], "command": "gs_show_status"},
+
+  // "all: true" or not true is up to you, *I* prefer "true" and configure
+  // git's remotes to not fetch everything upstream, just a subset I'm interested
+  // in.  Any way you decide, when the view is open, `[a]` will toggle that flag
+  // dynamically.
+  // Btw. you can use `f` to e.g. pick-axe, but it is IMO easier to just select
+  // something in any view, and then to open the context menu (e.g. right mouse click),
+  // choose: `GitSavvy: Pick-axe`.
+  // By another way, you can use `l` to open a file/folder chooser to limit the
+  // output, but I usually use the Command Palette (`fh` for `File History`) for that.
+  { "keys": ["ctrl+shift+g"], "command": "gs_graph", "args": { "all": true }},
+
+  // `gs_commit` is important as you can open it and if you haven't anything
+  // staged it will show all changes.  Use `u` in the diff to unselect parts of
+  // your changes. `[ctrl+enter]` will commit.
+  { "keys": ["ctrl+shift+c"], "command": "gs_commit"},
+
+  // *I* think the Line History is the quicker blame, so I use that actually a lot.
+  // Select some line, e.g. `[ctrl+l]`, and then `[ctrl+shift+l]` to see the history
+  // of the selected lines.  Works also in diffs, e.g. to follow the history of a hunk!
+  { "keys": ["ctrl+shift+l"], "command": "gs_line_history"},
+
+  // Navigate between changes, works in normal buffers and GitSavvy views.
+  { "keys": ["ctrl+."], "command": "gs_super_next" },
+  { "keys": ["ctrl+,"], "command": "gs_super_prev" },
+
+  // "current_file: true" or not (t.i. show all changes) is up to you. *I* prefer
+  // to start with "true". `[a]` will toggle between both modes.
+  // `[l]` will open the file chooser, `[N]` and `[P]` switch to the next or previous
+  // files immediately.
+  // Use `[space]` to select individual lines. Or `[,]` and `[.]` and the two super
+  // move commands above.
+  // If you're happy, move along with e.g. `[c]` to commit or `[m]` to amend the previous
+  // commit.
+  {
+      "keys": ["ctrl+shift+."],
+      "command": "gs_diff",
+      "args": { "current_file": true }
+  },
+  // I use the inline diff seldom but it has the `[a]`/`[b]` toggle to see the code
+  // in one of the two states, before and after. And it has `[n]` and `[p]` to walk
+  // back and forth in the file history...
+  {
+      "keys": ["ctrl+shift+,"],
+      "command": "gs_inline_diff",
+  },
+  // ... but I actually prefer the command `gs_show_file_at_commit` ("Show File at HEAD")
+  // which also has `[n]` and `[p]` walking but hides the diffing portion but just
+  // shows Sublime Text's gutter annotations for changes.
+  // Do note the `[l]` which let's you choose any revision of a file.
+  // For completeness, e.g.:
+  { "keys": ["ctrl+alt+shift+h"], "command": "gs_show_file_at_commit" },
 ```
 
-<div align="center">
+That is a lot to digest and you haven't even checked out a different branch or anything.
+To be honest, I create and checkout new branches usually using the Command Palette (`chn`).
+More branching can be found in the `Git: branch` special view.  E.g. `[ctrl+shift+s, tab]`
+(open the status view, then shift to the branches sub view using `[tab]`).  Obviously you
+can create branches here as well, here using `[b]`.  But you can also create branhces in the
+Repo History.  Very often there are multiple ways to the same goal.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6)
-![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=fff)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwind-css&logoColor=06B6D4)
-![Redux](https://img.shields.io/badge/Redux-0d1117?style=flat-square&logo=redux&logoColor=764ABC)
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=339933)
-![Express](https://img.shields.io/badge/Express-0d1117?style=flat-square&logo=express&logoColor=fff)
-![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=FFCA28)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED)
-![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=F05032)
-![Vercel](https://img.shields.io/badge/Vercel-0d1117?style=flat-square&logo=vercel&logoColor=fff)
-![Postman](https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=FF6C37)
+The Repo History is your friend for anything really.  Lesser known is the `[s]` knob that
+hides all commits so you can quickly see the branches and tags only.  Using `[ctrl+r]` you
+can quickly search and select a branch or tag.
 
-</div>
+Use `[o]` to see the full commit/patch under cursor, then `[p]` and `[n]` to walk the history.
+When you spot an spelling in one of the commit messages, `[W]` will let you reWord the message.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+Or use `[space]` to select two commits, then open the main menu with `[enter]` to open a diff
+between them for example.
 
-### GitHub Stats
+Or `[N]` (and `[P]`) to see and walk the *reflog*, i.e. to flip in the previous position/tip of
+your current branch (`@{1}`).  (For example to check or undo a rebase.)
 
-<div align="center">
+You see, endless, deep, savvy features.
 
-<a href="https://github.com/Atofinite5">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Atofinite5&show_icons=true&hide_border=true&bg_color=0d1117&title_color=4c8ed9&icon_color=4c8ed9&text_color=8b949e&count_private=true&ring_color=4c8ed9" alt="Stats"/>
-</a>&ensp;
-<a href="https://github.com/Atofinite5">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atofinite5&layout=compact&hide_border=true&bg_color=0d1117&title_color=4c8ed9&text_color=8b949e&langs_count=8" alt="Languages"/>
-</a>
+## Repo History
 
-</div>
+<table>
+    <tr>
+        <td width="50%">
+            <a href="https://user-images.githubusercontent.com/8558/246386732-78eda8f2-c308-411f-ba57-c1294f97b32b.png">
+                <img src="https://user-images.githubusercontent.com/8558/246386732-78eda8f2-c308-411f-ba57-c1294f97b32b.png" width="100%">
+            </a>
+        </td>
+        <td width="50%">
+            <a href="https://user-images.githubusercontent.com/8558/246387053-4c9d372d-017d-400a-a783-346905c86d37.png">
+                <img src="https://user-images.githubusercontent.com/8558/246387053-4c9d372d-017d-400a-a783-346905c86d37.png" width="100%">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td width="50%">Note the visual connection between fixup commits and the commits they are associated with.</td>
+        <td width="50%">When the cursor is positioned on a fixup (or squash) commit, the `[r]`ebase menu will provide a specific action to apply that fixup.</td>
+    </tr>
+</table>
 
-<br>
+You can review any rebase afterwards.  E.g.
 
-<div align="center">
-<a href="https://github.com/Atofinite5">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Atofinite5&hide_border=true&background=0d1117&stroke=1a2332&ring=4c8ed9&fire=4c8ed9&currStreakLabel=4c8ed9&sideLabels=8b949e&dates=555555&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="Streak"/>
-</a>
-</div>
+<table>
+    <tr>
+        <td width="33%">
+            <a href="https://user-images.githubusercontent.com/8558/246387264-b442cf0f-ab77-4694-a1ea-08d8e20a441a.png">
+                <img src="https://user-images.githubusercontent.com/8558/246387264-b442cf0f-ab77-4694-a1ea-08d8e20a441a.png" width="100%">
+            </a>
+        </td>
+        <td width="33%">
+            <a href="https://user-images.githubusercontent.com/8558/246387423-a2f6b82f-cf65-4566-af23-78fbc47f1382.png">
+                <img src="https://user-images.githubusercontent.com/8558/246387423-a2f6b82f-cf65-4566-af23-78fbc47f1382.png" width="100%">
+            </a>
+        </td>
+        <td width="33%">
+            <a href="https://user-images.githubusercontent.com/8558/246387583-9779f505-cdad-435a-8b65-3737845506eb.png">
+                <img src="https://user-images.githubusercontent.com/8558/246387583-9779f505-cdad-435a-8b65-3737845506eb.png" width="100%">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">Open the `[r]`ebase menu again.  (The currently checked out branch is named "which" here.)</td>
+        <td width="33%">Show the previous tip of the currently checked out branch side by side.</td>
+        <td width="33%">Showing the main menu, maybe show a diff between both variants or undo by selecting "Move ...".</td>
+    </tr>
+</table>
 
-<br>
+If you encounter merge conflicts that need to be resolved manually, displaying the diff can help ensure that you haven't introduced 
+any unintended changes or made mistakes.  (In most cases, the diff will be empty, indicating that both tips are identical in terms 
+of code.)  From the main menu you can also choose to "Move" or to "Reset" the branch back to the previous tip, effectively undoing
+the rebase.  "Move" will simply move the branch label, while "Reset" performs your typical reset operation that can also modify 
+Git's staging area and discard uncommitted changes, depending on the mode you choose.  Usually choose "Move" here to undo a rebase.  
 
-<div align="center">
-<a href="https://github.com/Atofinite5">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Atofinite5&bg_color=0d1117&color=4c8ed9&line=4c8ed9&point=8b949e&area=true&hide_border=true&area_color=0d1525" alt="Activity"/>
-</a>
-</div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+## Line History
 
-### Trophies
+GitSavvy has a feature called "Line History," also known as git's "wtf?" view. This allows you to view the commit history of specific lines within the repository. It's a great way to quickly research the history of a particular piece of code before using the traditional `blame` view.
 
-<div align="center">
-<a href="https://github.com/Atofinite5">
-  <img src="https://github-profile-trophy.vercel.app/?username=Atofinite5&theme=nord&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="Trophies"/>
-</a>
-</div>
+To access Line History, you can start on any normal view by selecting some lines, such as a function, and then issuing the `git: Line History` command from the command palette.  But really, you can start on any diff/patch that GitSavvy shows you.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+To make it more seamless, I recommend, again, to make a shortcut. For example, you can add the following to your user keybindings:
 
-### Contributions
+```
+  { "keys": ["ctrl+shift+l"], "command": "gs_line_history"},
+```
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake.svg" />
-  <img alt="contribution-graph" src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake-dark.svg" />
-</picture>
+Once you have that, you can use `ctrl+l` to select some lines, followed by `ctrl+shift+l` to follow
+those lines.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+GitSavvy will then show you snippets of commits/patches to show you the evolution of those lines.
+`[o]` on such an excerpt will open the complete commit.  `[O]` will display the version of the file
+as it existed at that specific point in time. And `[f]` for example will initiate a fixup commit
+for the commit under the cursor.   (Either with the stage, or with all changes if nothing is staged
+yet, as usual.)
 
-### Connect
+*Tip*: The Line History is also available from any view where we show a diff or patch.  (It is thus
+ available from within the Line History views.)  On such a view you don't necessarily have to
+ select any lines, as it will select the current hunk for you by default, giving you
+ the *"hunk-history"*, so to speak.
 
-<div align="center">
+*Even deeper*: After `[o]` or `[O]` you can navigate around in time with `[n]` (next) and `[p]`
+ (previous).  You can show the commit's context using `[g]`, and the hunks context by opening the
+ inline diff.  That's easier with more keybindings:
 
-<a href="https://linkedin.com/in/bhargav-kalambhe-882b4121a/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>&ensp;
-<a href="https://twitter.com/atofinite" target="_blank"><img src="https://img.shields.io/badge/Twitter-0d1117?style=flat-square&logo=x&logoColor=fff" alt="Twitter"/></a>&ensp;
-<a href="mailto:bhargavkalambhe3@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email"/></a>&ensp;
-<a href="https://github.com/Atofinite5" target="_blank"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=fff" alt="GitHub"/></a>&ensp;
-<a href="https://www.topmate.io/hargav_le/page/atORL3l8oo" target="_blank"><img src="https://img.shields.io/badge/Topmate-0d1117?style=flat-square&logo=googlemeet&logoColor=4c8ed9" alt="Topmate"/></a>
+```
+  { "keys": ["ctrl+shift+,"], "command": "gs_inline_diff" },
+  { "keys": ["ctrl+shift+."], "command": "gs_diff", "args": {"current_file": true} },
+```
 
-</div>
+That's pretty crazy, right?  All views are connected, and you can really navigate around the
+history.
 
-<br>
 
-<div align="center">
-<a href="https://www.buymeacoffee.com/atofinite"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-0d1117?style=flat-square&logo=buy-me-a-coffee&logoColor=FFDD00" alt="Buy Me A Coffee"/></a>
-</div>
+## Git Diff View
+GitSavvy provides a `git diff` view that allows users to stage, unstage, and reset (discard) files, hunks, or individual lines.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,50:142d4c,100:1a3a5c&height=100&section=footer"/>
+## Fixup/Squash Helpers
+GitSavvy offers fixup/squash helpers that can be accessed from various views, including the "Line History" view.
+
+## GitHub Integration
+GitSavvy provides GitHub integration that allows users to reference issues/collaborators when committing, open the current file or a commit on GitHub at the selected line, and create a new pull request from the current branch.
+
+## GitHub-Style Blame View
+GitSavvy offers a "blame" view that shows hunk metadata and allows users to view the commit that made the change, similar to GitHub's blame view.
+
+## Other highlights
+
+<table>
+    <tr>
+        <th>Status dashboard</th>
+        <th>Tags dashboard</th>
+    </tr>
+    <tr>
+        <td width="50%">
+            <a href="https://user-images.githubusercontent.com/8558/246819874-283e25d6-510a-4f33-ae24-1f57d533462d.png">
+                <img src="https://user-images.githubusercontent.com/8558/246819874-283e25d6-510a-4f33-ae24-1f57d533462d.png" width="100%">
+            </a>
+        </td>
+        <td width="50%">
+            <a href="https://user-images.githubusercontent.com/8558/246406488-1b7013b0-36c0-4e8d-90bf-7814d5c8e180.png">
+                <img src="https://user-images.githubusercontent.com/8558/246406488-1b7013b0-36c0-4e8d-90bf-7814d5c8e180.png" width="100%">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td width="50%">Display and overview and offer actions to manipulate your project state.</td>
+        <td width="50%">View and manipulate local and remote tags.</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>Diff</th>
+    </tr>
+    <tr>
+        <td width="50%">
+            <a href="https://user-images.githubusercontent.com/8558/290011169-1af9e0e4-aadd-4539-b7ac-d4979b9d0910.mp4">
+                <img src="https://user-images.githubusercontent.com/8558/290011195-35d53963-fe57-4c46-b418-e8ed3bf02f54.gif" width="100%">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td width="50%">Stage, unstage or discard hunks, files or individual lines. <a href="https://user-images.githubusercontent.com/8558/290011169-1af9e0e4-aadd-4539-b7ac-d4979b9d0910.mp4">(video)</a></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>Github integration</th>
+    </tr>
+    <tr>
+        <td width="50%">
+            <a href="https://user-images.githubusercontent.com/8558/246403219-313ca580-d4ea-4125-a10d-5f72ef6571ec.png">
+                <img src="https://user-images.githubusercontent.com/8558/246403219-313ca580-d4ea-4125-a10d-5f72ef6571ec.png" width="100%">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td width="50%">Reference issues and collaborators in commits.  Open files on GitHub in the browser, with lines pre-selected.  Create pull requests.  Fork a repository.</td>
+    </tr>
+</table>
+
