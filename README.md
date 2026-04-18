@@ -222,11 +222,5 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <div align="center">
 
-​```
-//  END OF TRANSMISSION
-//  ---------------------------
-//  "built to last, shipped to scale"
-//  bhargav_kalambhe  //  atofinite5
-​```
 
 </div>
