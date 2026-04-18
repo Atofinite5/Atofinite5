@@ -195,20 +195,6 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/connect.svg" width="100%"/>
 
-
-<br>
-
-<div align="center">
-
-<a href="https://linkedin.com/in/bhargav-kalambhe-882b4121a/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0a0118?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>&ensp;
-<a href="https://twitter.com/atofinite" target="_blank"><img src="https://img.shields.io/badge/Twitter-0a0118?style=flat-square&logo=x&logoColor=fff" alt="Twitter"/></a>&ensp;
-<a href="mailto:bhargavkalambhe3@gmail.com"><img src="https://img.shields.io/badge/Email-0a0118?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email"/></a>&ensp;
-<a href="https://github.com/Atofinite5" target="_blank"><img src="https://img.shields.io/badge/GitHub-0a0118?style=flat-square&logo=github&logoColor=fff" alt="GitHub"/></a>&ensp;
-<a href="https://www.topmate.io/hargav_le/page/atORL3l8oo" target="_blank"><img src="https://img.shields.io/badge/Topmate-0a0118?style=flat-square&logo=googlemeet&logoColor=7c4dff" alt="Topmate"/></a>&ensp;
-<a href="https://www.buymeacoffee.com/atofinite"><img src="https://img.shields.io/badge/Support-0a0118?style=flat-square&logo=buy-me-a-coffee&logoColor=FFDD00" alt="Buy Me A Coffee"/></a>
-
-</div>
-
 <br>
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/galaxy-divider.svg" width="100%"/>
