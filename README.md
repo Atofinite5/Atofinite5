@@ -195,15 +195,6 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/connect.svg" width="100%"/>
 
-​```
-// OPEN CHANNELS
-//
-// LinkedIn    :: /in/bhargav-kalambhe-882b4121a
-// Twitter     :: @atofinite
-// Email       :: bhargavkalambhe3@gmail.com
-// Topmate     :: /hargav_le/page/atORL3l8oo
-// Support     :: buymeacoffee.com/atofinite
-​```
 
 <br>
 
