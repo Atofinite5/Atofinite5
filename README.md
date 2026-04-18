@@ -172,22 +172,15 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <br>
 
-<div align="center">
-<a href="https://github.com/Atofinite5">
-  <img src="https://github-profile-trophy.vercel.app/?username=Atofinite5&theme=nord&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="Trophies"/>
-</a>
-</div>
+
 
 <br>
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake.svg" />
-  <img alt="contribution-graph" src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/output/github-snake-dark.svg" />
-</picture>
 
+
+<img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/nebula-collision.svg" width="100%" alt="Nebula Collision"/>
 </div>
 
 <br>
