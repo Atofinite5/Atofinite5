@@ -1,7 +1,6 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/nameplate.svg" alt="Bhargav Kalambhe - Cosmic Systems" width="100%"/>
-
 <br><br>
 
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/github-bhargav-kitty.svg" alt="cosmic-kitty-contribution-banner" width="100%"/>
