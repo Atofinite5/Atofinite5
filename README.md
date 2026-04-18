@@ -220,6 +220,10 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <br>
 
+<img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/connect.svg" width="100%"/>
+
+<br>
+
 <div align="center">
 
 
