@@ -1,4 +1,5 @@
 <img width="1100" height="380" alt="image" src="https://github.com/user-attachments/assets/43e58ddc-a300-41a9-9ad0-22f215487fd9" />
+https://emoji.discadia.com/emojis/488d2dfd-7ab3-4a74-83c1-caaa7c77bc10.gif
 Got it! This is a big ambitious piece — let me build the nameplate header with:
 
 1. **Broader dimensions** to fit all your tech stacks
