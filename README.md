@@ -39,6 +39,10 @@ Currently I am focused on **AI systems**, **cloud-native patterns**, and buildin
 
 <br>
 
+<img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/newtons-cradle.svg" width="100%"/>
+
+<br>
+
 <img src="https://raw.githubusercontent.com/Atofinite5/Atofinite5/main/assets/galaxy-divider.svg" width="100%"/>
 
 <br>
